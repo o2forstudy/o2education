@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4ecd4;
+    background-image: url("backgroundimgloginpage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    background: #f1b86b;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0);
+    text-align: center;
+    height: 300px;
+    width: 770px;
+}
+
+.login-box .side-image img {
+    width: 440px;
+    height: 300px;
+    border-radius: 2%;
+
+}
+
+.login-box .login-content {
+    padding: auto;
+    margin: 20px 10px 10px 10px;
+    color: #339100;
+}
+
+.login-box .login-content h2 {
+    color: #339100;
+    font-size: xx-large;
+    font-display: auto;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.login-box .login-content .username {
+    padding: auto;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.login-box .login-content .username input {
+    width: 175px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #339100;
+}
+
+.login-box .login-content .password input {
+    width: 175px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #339100;
+}
+
+.login-box .login-content .btn {
+    margin: 10px 10px 10px 10px;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #339100;
+    background-color: #339100;
+    color: #ffc219;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.login-box .login-content .btn:hover {
+    width: 85px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #276b03;
+}
+
+.login-box .login-content .new-acc {
+    padding: auto;
+    margin: 10px 10px 10px 100px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-box {
+    width: 90%;
+    max-width: 380px;
+    flex-direction: column;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+  }
+  .login-box .side-image {
+    display: none;
+  }
+  .login-box .login-content {
+    margin: 10px 0;
+  }
+  .login-box .login-content .username input,
+  .login-box .login-content .password input {
+    width: 100%;
+    max-width: 220px;
+    height: 30px;
+  }
+  .login-box .login-content .new-acc {
+    margin: 10px 0;
+    text-align: center;
+  }
+}

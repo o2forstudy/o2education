@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4ecd4;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Pushes logo to left, menu items to right */
+    align-items: center;
+    /* Centers items vertically */
+    padding: 5px 40px;
+    background-color: #558936;
+}
+
+.navbar .logo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo-container p {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 17px 7px 0px 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar .logo-container .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 3px 3px 0px 0px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    display: flex;
+    /* Forces the <li> items to sit side-by-side */
+    list-style: none;
+    /* Removes the default bullet points */
+    margin-inline: center;
+    /* Removes default left margin */
+    margin: 10px;
+    padding: 0;
+    gap: 25px;
+    /* Puts clean, equal spacing between your links */
+}
+
+.navbar .menu a {
+    color: #e2e8f0;
+    text-decoration: none;
+    /* Removes the underline */
+    margin: 0px 3px;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: #f1d46c;
+    /* Matches your typing text color when hovered */
+}
+
+.navbar .login-button .btn {
+    background-color: #e6bd5c;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px #c5a713;
+}
+
+.navbar .login-button .btn:hover {
+    background-color: #cdab24;
+
+}
+
+
+
+
+
+
+
+
+.details-about h3 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+.odd-point {
+    color: #268e09;
+    background-color: #f8df83;
+    margin: 50px 500px 50px 40px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #cdab24;
+    box-shadow: 0 8px 8px #c5a713;
+}
+
+.even-point {
+    color: #251f00ce;
+    background-color: #c0fd87;
+    margin: 50px 50px 50px 500px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #64e325;
+    box-shadow: 0 8px 8px #508f25;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #558936;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+}
+
+.footer {
+    color: #ffffff;
+}
+
+#head-cont {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer .logo-container .logo {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 3px 3px 0px 0px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .odd-point {
+    margin: 20px 15px;
+  }
+  .even-point {
+    margin: 20px 15px;
+  }
+}
